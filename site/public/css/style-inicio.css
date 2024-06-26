@@ -69,6 +69,12 @@ nav {
     width: 100%;
 }
 
+.dropdown-toggle {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
 .navbar {
     display: flex;
     justify-content: space-around;
@@ -85,6 +91,7 @@ nav {
 .nav-list {
     list-style: none;
     display: flex;
+    justify-content: center;
 }
 
 .nav-list li {

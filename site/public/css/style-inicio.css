@@ -19,6 +19,11 @@
     src: url(../fonts/JuliusSansOne-Regular.ttf);
   }
 
+  @font-face {
+    font-family: fonteTitulos2;
+    src: url(../fonts/AnekGurmukhi-ExtraBold.ttf);
+  }
+
 
 
 * {
@@ -208,11 +213,30 @@ section p{
     text-align: center;
     }
 
-.premios {
+.premios-lojas {
     margin-right: 100px;
 }
 
+.lojasTexto {
+    font-family: fonteTitulos2;
+    font-size: 35px;
+    margin-top: 65px;
+}
 
+footer {
+    color: #fff;
+    text-align: center;
+}
+
+.redes {
+    font-family: fonteRodape;
+}
+
+.politica {
+    color: #838383;
+    font-family: fonteInicio;
+    text-decoration: underline;
+}
 
 
 

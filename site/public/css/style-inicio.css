@@ -11,7 +11,7 @@
 
   @font-face {
     font-family: fonteTitulos;
-    src: url(../fonts/Inter.ttc);
+    src: url(../fonts/inter-4.ttf);
   }
 
   @font-face {
@@ -21,24 +21,28 @@
 
 
 
-
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-image: url(../img/Inicio/background2.svg);
     background-repeat: no-repeat;
     background-color: black;
     background-size: cover;
 }
+
 .logo{
 text-align: left;
 position: absolute;
-top: 27%;
-left: 15%;
-width: 50%;
+top: 30%;
+left: 10%;
+max-width: 100%;
+max-height: 100%;
+}
+
+.fundo{
+    width: 100%;
 }
 
 a {
@@ -53,7 +57,6 @@ a:hover {
 
 .logo {
     font-size: 24px;
-    text-transform: uppercase;
     letter-spacing: 4px;
 }
 
@@ -154,3 +157,62 @@ nav {
 .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
 }
+
+
+
+
+
+section{
+    margin-left: 6%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-block-end: 5%;
+}
+
+
+div h1{
+    color: #fff;
+    font-family: fonteTitulos;
+    font-size: 35px;
+    text-align: start;
+}
+
+section p{
+    color: #fff;
+}
+
+.texto-video {
+    display: inline-flex;
+}
+.texto-video iframe {
+    margin-right: 25px;
+}
+
+.texto-video p {
+    font-family: fontePrincipal;
+    width: 360px;
+    line-height: px;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.texto-2 {
+    font-family: fontePrincipal;
+    text-align: center;
+}
+
+#imagem-1 {
+    margin-right: 255px;
+    display: flex;
+    text-align: center;
+    }
+
+.premios {
+    margin-right: 100px;
+}
+
+
+
+
+

@@ -97,6 +97,17 @@ nav {
     margin-left: 42px;
 }
 
+.dropdown-item {
+    text-align: center;
+    color: #fff;
+    margin-left: -25px;
+}
+
+.dropdown-menu {
+    background-color: #222222;
+
+}
+
 .mobile-menu{
     display: none;
     cursor: pointer;
@@ -237,6 +248,3 @@ footer {
     font-family: fonteInicio;
     text-decoration: underline;
 }
-
-
-

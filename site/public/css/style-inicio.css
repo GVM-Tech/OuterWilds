@@ -97,15 +97,14 @@ nav {
     margin-left: 42px;
 }
 
-.dropdown-item {
+.dropdown-menu {
     text-align: center;
-    color: #fff;
-    margin-left: -25px;
+    background-color: #222222;
 }
 
-.dropdown-menu {
-    background-color: #222222;
-
+.lista-paginas {
+    color: #fff;
+    margin-left: -38px;
 }
 
 .mobile-menu{

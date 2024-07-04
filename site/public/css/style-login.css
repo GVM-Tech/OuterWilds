@@ -5,10 +5,10 @@
 
 
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: fontePrincipal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fontePrincipal;
 }
 
 body {
@@ -35,7 +35,24 @@ body {
 
 .login h1 {
     font-size: 36px;
-    text-align: center;   
+    text-align: center;
+}
+
+.voltar{
+    margin-top: 12px;
+    margin-right: 5px;
+    filter: contrast(100%);
+    transition: filter 0.1s;
+}
+
+.voltar:hover{
+    filter: contrast(0%);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .login .email-senha {
@@ -101,7 +118,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     cursor: pointer;
     font-size: 16px;
-    color: #333;
+    color: #000000;
     font-weight: 600;
 }
 

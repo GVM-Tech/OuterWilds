@@ -38,18 +38,18 @@ body {
     text-align: center;
 }
 
-.voltar{
+.voltar {
     margin-top: 12px;
     margin-right: 5px;
     filter: contrast(100%);
-    transition: filter 0.1s;
+    transition: filter 0.4s;
 }
 
-.voltar:hover{
+.voltar:hover {
     filter: contrast(0%);
 }
 
-.container{
+.container {
     display: flex;
     align-items: center;
     justify-content: center;

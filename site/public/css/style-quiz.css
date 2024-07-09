@@ -1,0 +1,75 @@
+@font-face {
+    font-family: fontePrincipal;
+    src: url(../fonts/Alata-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: fonteTitulos;
+    src: url(../fonts/inter-4.ttf);
+  }
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+}
+
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+nav {
+    justify-content: start;
+    display: flex;
+    align-items: center;
+    font-family: fontePrincipal;
+    background: black;
+    height: 15vh;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+
+.simbolo img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 42px;
+}
+
+.dropdown-menu {
+    text-align: center;
+    background-color: #222222;
+}
+
+.lista-paginas {
+    color: #fff;
+    margin-left: -38px;
+}

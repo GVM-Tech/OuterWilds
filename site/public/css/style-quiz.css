@@ -1,12 +1,27 @@
 @font-face {
     font-family: fontePrincipal;
     src: url(../fonts/Alata-Regular.ttf);
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: fonteTitulos;
     src: url(../fonts/inter-4.ttf);
-  }
+}
+
+@font-face {
+    font-family: fonteQuiz;
+    src: url(../fonts/Inter-BoldItalic.otf);
+}
+
+@font-face {
+    font-family: fonteInicio;
+    src: url(../fonts/Junge-Regular.ttf);
+}
+
+@font-face {
+    font-family: fonteRodape;
+    src: url(../fonts/JuliusSansOne-Regular.ttf);
+}
 
 
   * {
@@ -72,4 +87,101 @@ nav {
 .lista-paginas {
     color: #fff;
     margin-left: -38px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(../img/Quiz/background-quiz2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.quiz {
+    width: 650px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(60px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 70px 40px;
+}
+
+.quiz h1 {
+    color: #000000;
+    font-family: fonteQuiz;
+    font-size: 150px;
+    text-align: center;
+}
+
+.texto-quiz {
+    color: #ffffff;
+}
+
+.quiz .btn {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    color: #fff;
+    text-align: center;
+}
+
+.redes {
+    font-family: fonteRodape;
+}
+
+.politica {
+    color: #838383;
+    font-family: fonteInicio;
+    text-decoration: underline;
 }

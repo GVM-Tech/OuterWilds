@@ -93,6 +93,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     min-height: 100vh;
     background-image: url(../img/Quiz/background-quiz2.svg);
     background-repeat: no-repeat;
@@ -110,9 +111,14 @@ section {
     color: #ffffff;
     border-radius: 10px;
     padding: 70px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 25px;
 }
 
-.quiz .titulo  h1{
+.quiz .titulo {
     color: #ffffff;
     font-family: fonteQuiz;
     font-size: 135px;
@@ -124,26 +130,62 @@ section {
         1px 0 0;
 }
 
-.texto-quiz {
-    color: #ffffff;
-}
-
-.quiz .btn {
+.content {
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    height: 45px;
-    background: #fff;
-    border: none;
-    outline: none;
-    border-radius: 40px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-    cursor: pointer;
-    font-size: 16px;
-    color: #000000;
-    font-weight: 600;
+    gap: 10px;
+    font-family: fontePrincipal
 }
 
+.spnQtd {
+    text-align: end;
+}
+
+.answers {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: fontePrincipal
+}
+
+button {
+    width: 100%;
+    text-align: start;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #008CCC;
+    color: white;
+}
+
+.finish {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    font-family: fontePrincipal;
+}
+
+.finish button {
+    text-align: center;
+  }
 
 
+
+
+
+
+
+
+
+
+
+
+
+.quiz .finalizar {
+    font-family: fontePrincipal;
+}
 
 
 

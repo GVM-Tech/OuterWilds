@@ -110,6 +110,7 @@ section {
     color: #ffffff;
     border-radius: 10px;
     padding: 70px 40px;
+    text-align: center;
 }
 
 .quiz .titulo  h1{
@@ -129,52 +130,17 @@ section {
 }
 
 .quiz .btn {
-    width: 100%;
-    height: 45px;
-    background: #fff;
+    font-family: fontePrincipal;
+    width: 40%;
+    padding: 5px;
     border: none;
-    outline: none;
-    border-radius: 40px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
-    color: #000000;
-    font-weight: 600;
+    background-color: #f7d066;
+    color: white;
+    font-size: 25px;
+    margin-top: 4%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 footer {
     color: #fff;

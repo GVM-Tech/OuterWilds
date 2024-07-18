@@ -93,6 +93,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     flex-direction: column;
     min-height: 100vh;
     background-image: url(../img/Quiz/background-quiz2.svg);
@@ -101,73 +102,38 @@ section {
     background-position: center;
 }
 
-
-.quiz {
+.conteudo-dashboard {
     width: 650px;
-    background: transparent;
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(30px);
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     color: #ffffff;
     border-radius: 10px;
     padding: 70px 40px;
-    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-size: 25px;
+    font-family: fontePrincipal;
 }
 
-.quiz .titulo {
-    color: #ffffff;
-    font-family: fonteQuiz;
-    font-size: 135px;
-    text-align: center;
-    text-shadow: 
-        0 0 0 #E2AF6A,
-        0 0 0 #E2AF6A,
-        1px 1px 0 #E2AF6A,
-        1px 0 0;
-}
-
-.content {
+.dashboard {
     display: flex;
-    flex-direction: column;
-    width: 100%;
-    gap: 10px;
-    font-family: fontePrincipal
 }
 
-.spnQtd {
-    text-align: end;
-}
-
-.answers {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    font-family: fontePrincipal
-}
-
-button {
-    width: 100%;
-    text-align: start;
+.btn {
+    font-family: fontePrincipal;
+    width: 40%;
     padding: 5px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     background-color: #f7d066;
     color: white;
+    font-size: 25px;
+    margin-top: 4%;
 }
 
-.finish {
-    display: none;
-    flex-direction: column;
-    gap: 10px;
-    font-family: fontePrincipal;
-}
-
-.finish button {
+.btn button {
     text-align: center;
 }
 

@@ -95,7 +95,7 @@ section {
     align-items: center;
     text-align: center;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 110vh;
     background-image: url(../img/Quiz/background-quiz2.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -127,7 +127,7 @@ section {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    background-color: #f7d066;
+    background-color: #ebc253;
     color: white;
     font-size: 25px;
     margin-top: 4%;

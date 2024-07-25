@@ -1,0 +1,221 @@
+@font-face {
+    font-family: fontePrincipal;
+    src: url(../fonts/Alata-Regular.ttf);
+}
+
+@font-face {
+    font-family: fonteInicio;
+    src: url(../fonts/Junge-Regular.ttf);
+}
+
+@font-face {
+    font-family: fonteTitulos;
+    src: url(../fonts/inter-4.ttf);
+}
+
+@font-face {
+    font-family: fonteRodape;
+    src: url(../fonts/JuliusSansOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: fonteTitulos2;
+    src: url(../fonts/AnekGurmukhi-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: fonteTextos;
+    src: url(../fonts/anek-gurmukhi-expanded-regular.ttf);
+}
+
+@font-face {
+    font-family: fonteEmails;
+    src: url(../fonts/anek-gurmukhi-expanded-extralight.ttf);
+}
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+}
+
+.logo {
+text-align: left;
+position: absolute;
+top: 30%;
+left: 10%;
+max-width: 100%;
+max-height: 100%;
+}
+
+.fundo{
+    width: 100%;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    font-size: 24px;
+    letter-spacing: 4px;
+}
+
+nav {
+    justify-content: start;
+    display: flex;
+    align-items: center;
+    font-family: fontePrincipal;
+    background: black;
+    height: 15vh;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+
+.simbolo img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 42px;
+}
+
+.dropdown-menu {
+    text-align: center;
+    background-color: #222222;
+}
+
+.lista-paginas {
+    color: #fff;
+    margin-left: -38px;
+}
+
+section {
+    margin-left: 6%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-block-end: 5%;
+    color: #fff;
+}
+
+.titulo h1{
+    color: #fff;
+    font-family: fonteTitulos;
+    font-size: 30px;
+    text-align: center;
+}
+
+.viajantes {
+    display: flex;
+}
+
+.titulo-viajantes {
+    color: #fff;
+    font-family: fontePrincipal;
+    font-size: 26px;
+    text-align: start;
+    margin-top: 3%;
+
+}
+
+.texto-viajantes {
+    font-size: 20px;
+    margin-top: 1%;
+    text-align: justify;
+    font-family: fontePrincipal;
+}
+
+.info-viajantes {
+    font-size: 20px;
+    text-align: center;
+    margin-top: -2%;
+    font-family: fonteTextos;
+}
+
+.imagem-direita {
+    margin-top: 7%;
+    text-align: end;
+    margin-left: 7%;
+}
+
+.imagem-direita p {
+    text-align: center;
+    font-family: fonteRodape;
+    margin-top: 3%;
+    font-size: 15px;
+}
+
+.imagem-esquerda {
+    margin-top: 7%;
+    text-align: start;
+    margin-right: 7%;
+}
+
+.imagem-esquerda p {
+    text-align: center;
+    font-family: fonteRodape;
+    margin-top: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    color: #fff;
+    text-align: center;
+}
+
+.redes {
+    font-family: fonteRodape;
+}
+
+.politica {
+    color: #838383;
+    font-family: fonteInicio;
+    text-decoration: underline;
+}

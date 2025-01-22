@@ -6,7 +6,7 @@ const content = document.querySelector(".content");
 const contentFinish = document.querySelector(".finish");
 const btnRestart = document.querySelector(".finish button");
 
-import questions from "./questions.js";
+import questions from ".questions.js";
 
 let currentIndex = 0;
 let questionsCorrect = 0;

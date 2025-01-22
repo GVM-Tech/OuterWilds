@@ -186,16 +186,83 @@ section {
 }
 
 
+.main{
+    max-width: 900px;
+    margin: 0 auto;
+}
 
+div.newPost{
+    width: 100%;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px;
+}
 
+div.newPost div.infoUser{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+div.newPost div.infoUser div.imgUser{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #fff;
+}
 
+div.newPost div.infoUser strong{
+    font-size: 16px;
+    margin-left: 10px;
+    color: #FFCB14;
+}
 
+div.newPost form.formPost{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 
+div.newPost form.formPost textarea{
+    background: #202020;
+    margin: 15px 0px;
+    padding: 25px;
+    border-radius: 10px;
+    resize: none;
+    outline: none;
+    border: 0;
 
+    font-weight: bold;
+    font-family: fonteTextos;
+    color: #7A7A7A;
 
+}
 
+div.newPost form.formPost div.iconsAndButton{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+div.newPost form.formPost div.iconsAndButton div.icons{
+    outline: none;
+    margin-right: 15px;
+    border: 0;
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+}
+
+div.newPost form.formPost div.iconsAndButton div.icons .btnFileForm{
+    width: 100%;
+    background: transparent;
+    border-style: none;
+    margin-left: 10px;
+    margin-right: 15px;
+
+}
 
 
 
